@@ -1,0 +1,77 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-22T07:20:11.278Z",
+        "line": 7,
+        "name": "Login Feature",
+        "description": "",
+        "id": "title-of-your-feature;login-feature",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6975974600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Browser is Open",
+            "match": {
+              "location": "stepDefinitions.LoginSteps_PF.openBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 223147600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Login to Facebook",
+            "match": {
+              "location": "stepDefinitions.LoginSteps_PF.login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 973223800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Close the browser",
+            "match": {
+              "location": "stepDefinitions.LoginSteps_PF.closeBrowser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "  I want to use this template for my feature file",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/login.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
